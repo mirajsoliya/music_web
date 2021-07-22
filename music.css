@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:url('./2.jpg')center center/cover;
+    background-repeat: no-repeat;
+    width:100%;
+    height: 100vh;
+}
+.contenar h1
+{
+text-align: center;
+font-size:6rem;
+/* font-family: 'Caveat', cursive; */
+/* font-family: 'Lobster', cursive; */
+/* font-family: 'Lobster Two', cursive; */
+/* font-family: 'Otomanopee One', sans-serif; */
+font-family: 'Qahiri', sans-serif;
+color: blanchedalmond;
+
+}
+
+.main
+{
+    border: 2px solid black;
+    display:inline-block;
+   width: 22rem;
+   height: 32rem;
+   background-color: white;
+   border-radius:3rem;
+   margin: 4rem;
+}
+
+.music{
+    text-align: center;
+    color:black;
+    margin: 2rem;
+}
+.music h2{
+   font-size:3rem;
+   /* font-family: 'Caveat', cursive; */
+font-family: 'Lobster', cursive;
+
+}
+.imgmusic img
+{
+    width:16rem;
+    height:16rem;
+    border-radius:50%;
+    margin-top:3rem;
+    box-shadow: 0 1.2rem 3rem 0.5rem rgba(0, 0, 0, 0.7);
+}
+.controls{
+    display:flex;
+    justify-content: space-between;
+   
+}
+.controls i {
+ width:2rem;
+ margin-top:2rem;
+ border-radius: 50%;
+
+ 
+}
+.controls i:hover{
+background: black;
+color: white;
+ 
+}
+/* .controls #play:hover{
+   
+      filter: invert(100%); 
+          box-shadow: 0 1.2rem 3rem 0.5rem rgba(0, 0, 0, 0.2);
+   
+} */
+/* ......................animation............... */
+.anime{
+    animation: rotateplayer 3s linear infinite;
+}
+@keyframes rotateplayer
+{
+    from{
+        transform: rotate(0deg);
+    }
+   to{
+       transform: rotate(360deg);
+   }
+}
